@@ -2,12 +2,7 @@ import {Component} from 'angular2/core';
 
 @Component({
 	selector: 'root',
-	//Component style
-	styles: [`
-	h1 {
-	  color: red;
-	}
-	`],
+	
 	//External style
 	styleUrls['style.css'],
 	template: `
