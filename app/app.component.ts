@@ -6,12 +6,7 @@ import {Component} from 'angular2/core';
 	//External style
 	styleUrls['style.css'],
 	template: `
-	<!--Template inline style-->
-	<style>
-	h1 {
-	  color: purple;
-	}
-	</style>
+	
 	<header>
 <nav>
     <ul>
