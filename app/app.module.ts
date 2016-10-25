@@ -4,6 +4,8 @@ import { FormsModule }   from '@angular/forms';
 
 import { AppComponent }  from './app.component';
 import { AppHome } from './home';
+import { LoginApp} from './login';
+import { DashboardApp } from './dashboard';
 
 @NgModule({
   imports: [
@@ -12,8 +14,10 @@ import { AppHome } from './home';
   ],
   declarations: [
     AppComponent,
-    AppHome
+    LoginApp,
+    AppHome,
+    DashboardApp
+
   ],
   bootstrap: [ AppComponent ]
 })
-export class AppModule { }
